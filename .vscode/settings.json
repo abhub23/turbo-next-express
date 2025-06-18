@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/apps/*/node_modules": true,
+    "**/packages/*/node_modules": true
+  },
+  "search.exclude": {
+    "**/apps/*/node_modules": true,
+    "**/packages/*/node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/apps/*/node_modules/**": true,
+    "**/packages/*/node_modules/**": true
+  }
+}
