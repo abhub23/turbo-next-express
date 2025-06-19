@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "nodemon --exec ts-node index.ts",
     "start": "node dist/index.js",
-    "build": "tsc",
+    "build": "tsc -b",
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@vercel/ncc": "^0.38.3",
+    "@vercel/node": "^5.2.2",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "next": "^15.3.3",
