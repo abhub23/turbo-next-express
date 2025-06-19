@@ -1,4 +1,0 @@
-apps/client/**
-apps/web/**
-# Add any other apps you want to exclude
-!apps/server/**
