@@ -11,8 +11,6 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.10",
-    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.517.0",
     "next": "^15.3.0",
@@ -25,8 +23,6 @@
     "tailwindcss": "^4.1.10"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
     "@types/node": "^22.15.3",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.1",
