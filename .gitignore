@@ -1,0 +1,35 @@
+# Node modules
+**/node_modules
+node_modules
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Dependency lockfiles (optional)
+bun.lockb
+yarn.lock
+.pnpm-debug.log
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Misc
+*.tsbuildinfo
