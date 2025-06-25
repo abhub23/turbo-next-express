@@ -10,25 +10,25 @@ import {
   Nosifer,
   Kalnia_Glaze,
   Rubik_Gemstones,
-} from "next/font/google";
+} from 'next/font/google';
 
-const Bricolage_font = Bricolage_Grotesque({ subsets: ["latin"] });
-const Montserrat_font = Montserrat({ subsets: ["latin"] });
-const Host_Grotesk_font = Host_Grotesk({ subsets: ["latin"] });
-const DM_Sans_font = DM_Sans({ subsets: ["latin"] });
-const Kalnia_Glaze_font = Kalnia_Glaze({ subsets: ["latin"] });
+const Bricolage_font = Bricolage_Grotesque({ subsets: ['latin'] });
+const Montserrat_font = Montserrat({ subsets: ['latin'] });
+const Host_Grotesk_font = Host_Grotesk({ subsets: ['latin'] });
+const DM_Sans_font = DM_Sans({ subsets: ['latin'] });
+const Kalnia_Glaze_font = Kalnia_Glaze({ subsets: ['latin'] });
 const Rubik_Gemstones_font = Rubik_Gemstones({
-  weight: "400",
-  subsets: ["latin"],
+  weight: '400',
+  subsets: ['latin'],
 });
 const Press_Start_2P_font = Press_Start_2P({
-  weight: "400",
-  subsets: ["latin"],
+  weight: '400',
+  subsets: ['latin'],
 });
-const Bangers_font = Bangers({ weight: "400", subsets: ["latin"] });
-const Eater_font = Eater({ weight: "400", subsets: ["latin"] });
-const Irish_Grover_font = Irish_Grover({ weight: "400", subsets: ["latin"] });
-const Nosifer_font = Nosifer({ weight: "400", subsets: ["latin"] });
+const Bangers_font = Bangers({ weight: '400', subsets: ['latin'] });
+const Eater_font = Eater({ weight: '400', subsets: ['latin'] });
+const Irish_Grover_font = Irish_Grover({ weight: '400', subsets: ['latin'] });
+const Nosifer_font = Nosifer({ weight: '400', subsets: ['latin'] });
 
 export const Bricolage = Bricolage_font.className;
 export const Montserratfont = Montserrat_font.className;
